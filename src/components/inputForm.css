@@ -1,0 +1,36 @@
+form {
+    display: flex;
+    flex-direction: column;
+    min-width: 200px;
+    gap:10px;
+}
+
+.container-form {
+    display: flex;
+    flex-direction: column-reverse;
+    gap:10px;
+}
+
+.list-game-container{
+    padding:10px;
+    border: 2px solid black;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}
+
+.list-game {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 4px;
+    cursor: pointer;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
